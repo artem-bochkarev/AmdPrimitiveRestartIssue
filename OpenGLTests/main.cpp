@@ -134,7 +134,7 @@ int main( void )
 
         //Not ok:
         //glDrawElements( GL_LINE_STRIP, 3, INDEX_TYPE_GL, (void*)( indexes.data() ) );
-        //glDrawElements( GL_LINE_STRIP, 3, INDEX_TYPE_GL, (void*)(indexes.data() + 3) );
+        //glDrawElements( GL_LINE_STRIP, 3, INDEX_TYPE_GL, (void*)(indexes.data() + 2) );
         //Ok:
         glDrawElements( GL_LINE_STRIP, 6, INDEX_TYPE_GL, (void*)(indexes.data()) );
 
